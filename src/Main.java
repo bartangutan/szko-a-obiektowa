@@ -15,5 +15,10 @@ public class Main {
         System.out.println("Liczba uczniów: "+ Uczen.getLiczbaUczniow());
         System.out.println(uczen);
         System.out.println(uczen2);
+
+        Nauczyciel nauczycielMatematyki = new Nauczyciel("Eustachy", 72, "matematyka");
+        System.out.println(nauczycielMatematyki);
+        nauczycielMatematyki.wykonaDyzur();
+        uczen2.wykonaDyzur();//polimorfizm
     }
 }
